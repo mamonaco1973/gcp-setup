@@ -49,7 +49,7 @@ resource "google_compute_firewall" "allow_http" {
 # Compute Instance: Ubuntu VM
 # Deploys a lightweight Ubuntu 24.04 VM with essential configurations.
 resource "google_compute_instance" "ubuntu_vm" {
-  name         = "ubuntu-24-04-vm"          # Name of the instance.
+  name         = "setup-vm"                 # Name of the instance.
   machine_type = "e2-micro"                 # Machine type for cost-efficient workloads.
   zone         = "us-central1-a"            # Deployment zone for the instance.
 
