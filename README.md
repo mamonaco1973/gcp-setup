@@ -5,6 +5,13 @@ This project complements a video on my channel that demonstrates how to configur
 
 An Ubuntu virtual machine (VM Instance) is deployed, and a [startup_script](scripts/startup_script.sh) script is used to install Apache during the instance's boot process.
 
+## Download this Repository
+
+```bash
+git clone https://github.com/mamonaco1973/gcp-setup.git
+cd gcp-setup
+```
+
 ## Prerequisites
 
 * [Install gcloud CLI](https://cloud.google.com/sdk/docs/install) 
